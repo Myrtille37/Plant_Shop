@@ -2,6 +2,7 @@
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+    outline: 1px solid gray;
 }
 .header{
     display: flex;
@@ -59,9 +60,34 @@ a.button:hover {
     font-weight: 500;
     line-height: normal;
 }
+.arrows_previous,.arrows_next{
+    width:293px;
+    margin:0;
+}
 .arrows_img{
     height: 20px;
     width: 26px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+.photo_plant{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.info{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    display:grid;
+    grid-template-columns: 1fr  ;
+    grid-template-rows: 1fr 1fr;
+
 }
 
 
