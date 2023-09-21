@@ -37,11 +37,7 @@ a.button {
     line-height: 1;
     font-weight: 100;
 }
-a.button:hover {
-    background-color:#156963;
-    text-decoration: aliceblue;
-    transition: 0.5s;
-}
+
 .previous,.next {
     width: 105px;
     height: 29px;
@@ -60,36 +56,80 @@ a.button:hover {
     font-weight: 500;
     line-height: normal;
 }
-.arrows_previous,.arrows_next{
-    width:293px;
-    margin:0;
-}
-.arrows_img{
+
+
+.img_arrow_back,.img_arrow_next{
     height: 20px;
-    width: 26px;
+    width: 20px;
+    margin-right: 2px;
 }
-.main{
+.main_info{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 .photo_plant{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
+    width: 100%;
 }
-.info{
+.kembang{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 2; 
-    display:grid;
-    grid-template-columns: 1fr  ;
-    grid-template-rows: 1fr 1fr;
-
+    grid-row-end: 2;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    padding-left: 3em;
 }
-
+.buttons{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: flex-end;
+    padding-bottom: 4em;
+    gap: 1em;
+}
+.previous_button,.next_button{
+    width: 213px;
+height: 83px;
+}
+.previous_button:hover{
+    background-color:#156963 ;
+    transition: 0,5s;
+}
+.next_button:hover{
+    background-color:#156963 ;
+    transition: 0,5s; 
+}
+.kaktus_plant:hover{
+    color: rgba(255, 255, 255, 1);
+    
+}
+.rahasia_plant:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.h1{
+    color: var(--akana-green, #156963);
+    font-family: Montserrat;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main_text{
+    color: var(--kq-black, #2C1500);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
 
 
 
