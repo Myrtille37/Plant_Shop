@@ -1,8 +1,9 @@
+/* *{outline: 1px solid gray
+} */
 .container{
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 1px solid gray;
 }
 .header{
     display: flex;
@@ -61,7 +62,7 @@ a.button {
 .img_arrow_back,.img_arrow_next{
     height: 20px;
     width: 20px;
-    margin-right: 2px;
+    margin-right: 3px;
 }
 .main_info{
     display: grid;
@@ -92,7 +93,7 @@ a.button {
     grid-row-end: 3;
     justify-self: center;
     align-self: flex-end;
-    padding-bottom: 4em;
+    padding-bottom: 5em;
     gap: 1em;
 }
 .previous_button,.next_button{
@@ -130,6 +131,344 @@ font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 177.778% */
 }
+.about-shop{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap:4rem;
+}
 
+/*about-shop__fast_delivery_block*/
+.about-shop__fast_delivery_block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+    padding: 0.5rem;
+}
+.car_img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 48px;
+height: 48px;
+flex-shrink: 0;
+}
+.fast_delivery__header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    color: var(--akana-green, #156963);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */ 
+}
+.fast_delivery__text{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    color: var(--kq-black, #2C1500);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 160% */
+}
 
+/*about-shop__great_customer_service_block*/
+.about-shop__great_customer_service_block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+    padding: 0.5rem;
+}
+.headphones_img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+.great_customer_service__header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    color: var(--akana-green, #156963);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+}
+.great_customer_service__text{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    color: var(--kq-black, #2C1500);
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 160% */
+}
 
+/*about-shop__original_plants_block*/
+.about-shop__original_plants_block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+    padding: 0.5rem;
+}
+.plant_img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+.original_plants__header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    color: var(--akana-green, #156963);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+}
+.original_plants__text{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    color: var(--kq-black, #2C1500);
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 160% */
+}
+
+/*about-shop__affordable_price_block*/
+.about-shop__affordable_price_block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+    padding: 0.5rem;
+}
+.dollar-symbol_img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+.affordable_price__header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    color: var(--akana-green, #156963);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+}
+.affordable_price__text{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    color: var(--kq-black, #2C1500);
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 160% */
+}
+
+.h2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.gallery{
+    display: flex;
+    gap:3rem
+}
+/*gallery__kaktus_plants_1*/
+.gallery__kaktus_plants_1{
+    display: flex;
+    flex-direction: column;
+}
+.kaktus_plants_1_img{
+    width: 200px;
+height: 266.667px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.gallery__kaktus_plants_1_text{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.gallery__kaktus_plants_1_price{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/*gallery__landak_plants*/
+.gallery__landak_plants{
+    display: flex;
+    flex-direction: column;
+}
+.landak_plants_img{
+    width: 200px;
+height: 266.667px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.gallery__landak_plants_text{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.gallery__landak_plants_price{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/*gallery__kecubung_plants_1*/
+.gallery__kecubung_plants_1{
+    display: flex;
+    flex-direction: column;
+}
+.kecubung_plants_1_img{
+    width: 200px;
+height: 266.667px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.gallery__kecubung_plants_1_text{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.gallery__kecubung_plants_1_price{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/*gallery__kecubung_plants_2*/
+.gallery__kecubung_plants_2{
+    display: flex;
+    flex-direction: column;
+}
+.kecubung_plants_2_img{
+    width: 200px;
+height: 266.667px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.gallery__kecubung_plants_2_text{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.gallery__kecubung_plants_2_price{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/*gallery__kecubung_plants_3*/
+.gallery__kecubung_plants_3{
+    display: flex;
+    flex-direction: column;
+}
+.kecubung_plants_3_img{
+    width: 200px;
+height: 266.667px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.gallery__kecubung_plants_3_text{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.gallery__kecubung_plants_3_price{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
