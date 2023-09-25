@@ -1,5 +1,5 @@
-/* *{outline: 1px solid gray
-} */
+*{outline: 1px solid gray;
+}
 .container{
     max-width: 1200px;
     padding: 0 15px;
@@ -310,7 +310,7 @@ font-weight: 400;
 line-height: 16px; /* 160% */
 }
 
-.h2{
+.featured_plants__header{
     color: #000;
     font-family: Montserrat;
     font-size: 20px;
@@ -321,7 +321,7 @@ line-height: 16px; /* 160% */
 
 .gallery{
     display: flex;
-    gap:3rem
+    gap:3rem;
 }
 /*gallery__kaktus_plants_1*/
 .gallery__kaktus_plants_1{
@@ -471,4 +471,63 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+
+/*by-more-plants*/
+.by-more-plants{
+    display: grid;
+    grid-template-columns: 1fr 55%;
+    grid-template-rows: 25% 25%% 1fr;
+    gap: 1rem;
+    align-items:center;
+    justify-items: start;
+}
+.by-more-plants__header{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: start;
+    text-align:start;
+    padding-left: 1rem;
+    width: 25rem;
+    color: var(--kq-black, #2C1500);
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 140% */
+}
+.by-more-plants__text{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    padding-left: 1rem;
+    width: 26rem;
+    color: var(--kq-black, #2C1500);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.by-more-plants__left_photo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;  
+    width:100%;
+    flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.by-more-plants__right_photo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;  
+    width:100%;
+    height: 769.5px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
