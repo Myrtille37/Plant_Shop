@@ -14,10 +14,40 @@
     width: 100%;
 }
 .sign_in{
-    padding-right: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 111px;
+    height: 36px;
+    padding-left:0.5rem;
+    color: var(--akana-green, #156963);
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 142.857% */
+}
+.sign_in:hover{
+    background-color: var(--akana-green, #156963);
+    color: white;
 }
 .sign_up{
-    padding-left:8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 111px;
+    height: 36px;
+    padding-left:0.5rem;
+    color: var(--akana-green, #156963);
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 142.857% */
+}
+.sign_up:hover{
+    background-color: var(--akana-green, #156963);
+    color: white;
 }
 .search,.shopping_cart{
     width: 20px;
@@ -477,7 +507,7 @@ line-height: normal;
 .by-more-plants{
     display: grid;
     grid-template-columns: 1fr 55%;
-    grid-template-rows: 25% 25%% 1fr;
+    grid-template-rows: 25% 25% 1fr;
     gap: 1rem;
     align-items:center;
     justify-items: start;
