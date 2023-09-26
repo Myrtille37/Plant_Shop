@@ -164,7 +164,9 @@ line-height: 32px; /* 177.778% */
 .about-shop{
     display: flex;
     flex-direction: row;
-    padding: 2rem;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     gap:4rem;
 }
 
@@ -339,7 +341,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 16px; /* 160% */
 }
-
 .featured_plants__header{
     color: #000;
     font-family: Montserrat;
@@ -348,10 +349,13 @@ line-height: 16px; /* 160% */
     font-weight: 500;
     line-height: normal; 
 }
-
+.featured_plants{
+    padding-top: 6rem;
+}
 .gallery{
     display: flex;
     gap:3rem;
+    padding-top: 2rem;
 }
 /*gallery__kaktus_plants_1*/
 .gallery__kaktus_plants_1{
@@ -359,8 +363,8 @@ line-height: 16px; /* 160% */
     flex-direction: column;
 }
 .kaktus_plants_1_img{
-    width: 200px;
-height: 266.667px;
+    width: 100%;
+height: auto;
 flex-shrink: 0;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -381,6 +385,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin: 0;
 }
 
 /*gallery__landak_plants*/
@@ -389,8 +394,8 @@ line-height: normal;
     flex-direction: column;
 }
 .landak_plants_img{
-    width: 200px;
-height: 266.667px;
+    width: 100%;
+    height: auto;
 flex-shrink: 0;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -411,6 +416,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin: 0;
 }
 
 /*gallery__kecubung_plants_1*/
@@ -419,8 +425,8 @@ line-height: normal;
     flex-direction: column;
 }
 .kecubung_plants_1_img{
-    width: 200px;
-height: 266.667px;
+    width: 100%;
+    height: auto;
 flex-shrink: 0;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -441,6 +447,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin: 0;
 }
 
 /*gallery__kecubung_plants_2*/
@@ -449,8 +456,8 @@ line-height: normal;
     flex-direction: column;
 }
 .kecubung_plants_2_img{
-    width: 200px;
-height: 266.667px;
+    width: 100%;
+    height: auto;
 flex-shrink: 0;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -471,6 +478,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin: 0;
 }
 
 /*gallery__kecubung_plants_3*/
@@ -479,8 +487,8 @@ line-height: normal;
     flex-direction: column;
 }
 .kecubung_plants_3_img{
-    width: 200px;
-height: 266.667px;
+    width: 100%;
+    height: auto;
 flex-shrink: 0;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -501,6 +509,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin: 0;
 }
 
 /*by-more-plants*/
@@ -511,6 +520,7 @@ line-height: normal;
     gap: 1rem;
     align-items:center;
     justify-items: start;
+    padding-top: 6rem;
 }
 .by-more-plants__header{
     grid-column-start: 1;
@@ -548,6 +558,7 @@ line-height: 28px; /* 175% */
     grid-row-start: 3;
     grid-row-end: 4;  
     width:100%;
+    height:auto;
     flex-shrink: 0;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -557,7 +568,69 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     grid-row-start: 1;
     grid-row-end: 4;  
     width:100%;
-    height: 769.5px;
+    height: auto;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.our-shop{
+    padding-top: 6rem;
+}
+.our-shop-block{
+display: grid;
+grid-template-columns: 60% 1fr;
+grid-template-rows: 1fr 1fr;
+justify-items: stretch;
+background-color: #F3F4F6; 
+width: 100%;
+height: 22rem;
+}
+.our-shop-block__header{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    color: var(--kq-black, #2C1500);
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 140% */
+text-align: start;
+padding-top: 5rem;
+}
+.our-shop-block__btn{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 152px;
+    height: 40px;
+    justify-self: center;
+    text-align:center;
+    color: var(--akana-green, #156963);
+text-align: center;
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 142.857% */
+}
+.our-shop-block__btn:hover{
+    background-color: var(--akana-green, #156963);
+    color: white;  
+}
+.sanni-sahil_img{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    padding-top: 6rem;
 }
