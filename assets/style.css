@@ -1,6 +1,6 @@
-/* *{
+*{
     outline: 1px solid grey;
-} */
+}
 .container{
     max-width: 1200px;
     padding: 0 15px;
@@ -32,6 +32,7 @@ line-height: 20px; /* 142.857% */
 .sign_in:hover{
     background-color: var(--akana-green, #156963);
     color: white;
+    cursor: pointer;
 }
 .sign_up{
     display: inline-flex;
@@ -50,6 +51,7 @@ line-height: 20px; /* 142.857% */
 .sign_up:hover{
     background-color: var(--akana-green, #156963);
     color: white;
+    cursor: pointer;
 }
 .search,.shopping_cart{
     width: 20px;
@@ -103,7 +105,7 @@ a.button {
 .main_info{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 30%;
 }
 .photo_plant{
     grid-column-start: 1;
@@ -130,8 +132,7 @@ a.button {
     grid-row-start: 2;
     grid-row-end: 3;
     justify-self: center;
-    align-self:center;
-    padding-bottom: 2.5rem;
+    align-self:self-end;
 }
 .previous_button,.next_button{
 flex-shrink: 0;
@@ -143,17 +144,21 @@ height:8rem;
 .previous_button:hover{
     background-color:#156963 ;
     transition: 0,5s;
+    cursor: pointer;
 }
 .next_button:hover{
     background-color:#156963 ;
     transition: 0,5s; 
+    cursor: pointer;
 }
 .kaktus_plant:hover{
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
     
 }
 .rahasia_plant:hover{
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 .h1{
     color: var(--akana-green, #156963);
@@ -178,6 +183,7 @@ padding-right: 0.5rem;
     flex-direction: row;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 6rem;
     gap:3rem;
 }
 
@@ -528,7 +534,7 @@ margin: 0;
 /*by-more-plants*/
 .by-more-plants{
     display: grid;
-    grid-template-columns: 1fr 55%;
+    grid-template-columns: 1fr 50%;
     grid-template-rows: 30% 30% 1fr;
     gap: 1rem;
     align-items: end;
@@ -581,6 +587,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     grid-row-start: 1;
     grid-row-end: 4;  
     width:100%;
+    justify-self: stretch;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -636,7 +643,7 @@ line-height: 20px; /* 142.857% */
 .our-shop-block__btn:hover{
     background-color: var(--akana-green, #156963);
     color: white;  
-}
+    cursor: pointer;}
 .sanni-sahil_img{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -814,4 +821,19 @@ color: var(--akana-green, #156963);
 .btn-submit:hover{
     color: white;
     background-color:var(--akana-green, #156963) ;
+    cursor: pointer;
 }
+
+@media screen and (max-width: 1244px){
+  .buttons{
+    align-self: auto;
+  }  
+}
+@media screen and (max-width:1040){
+        
+            .by-more-plants__right_photo{
+            width: 50wv;
+            height: 50vh;
+            }
+}
+
