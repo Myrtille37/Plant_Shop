@@ -1,6 +1,6 @@
-*{
+/* *{
     outline: 1px solid grey;
-}
+} */
 .container{
     max-width: 1200px;
     padding: 0 15px;
@@ -13,7 +13,7 @@
     gap: 1.5rem;
     height: 36px;
     width: 100%;
-    padding-bottom: 2rem;
+    
 }
 .sign_in{
     display: inline-flex;
@@ -106,6 +106,7 @@ a.button {
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 30%;
+    
 }
 .photo_plant{
     grid-column-start: 1;
@@ -113,6 +114,7 @@ a.button {
     grid-row-start: 1;
     grid-row-end: 3;
     width: 100%;
+    
 }
 .kembang{
     grid-column-start: 2;
@@ -122,8 +124,7 @@ a.button {
     align-self: center;
     justify-content: center;
     align-content: center;
-    padding-right: 2rem;
-    padding-left: 2rem;
+   padding-left: 4rem;
     padding-top: 4rem;
 }
 .buttons{
@@ -132,7 +133,7 @@ a.button {
     grid-row-start: 2;
     grid-row-end: 3;
     justify-self: center;
-    align-self:self-end;
+    align-self:auto;
 }
 .previous_button,.next_button{
 flex-shrink: 0;
@@ -181,10 +182,10 @@ padding-right: 0.5rem;
 .about-shop{
     display: flex;
     flex-direction: row;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 6rem;
-    gap:3rem;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+padding-top: 6rem;
+    gap:1.5rem;
 }
 
 /*about-shop__fast_delivery_block*/
@@ -193,7 +194,7 @@ padding-right: 0.5rem;
     grid-template-columns: 1fr 70%;
     grid-template-rows: 1fr 70%;
     align-items: center;
-    justify-items: start;
+    justify-items: center;
     padding: 0.5rem;
 }
 .car_img{
@@ -204,6 +205,7 @@ padding-right: 0.5rem;
     width: 48px;
 height: 48px;
 flex-shrink: 0;
+align-self: self-start;
 }
 .fast_delivery__header{
     grid-column-start: 2;
@@ -235,8 +237,7 @@ line-height: 24px; /* 150% */
     display: grid;
     grid-template-columns: 1fr 70%;
     grid-template-rows: 1fr 70%;
-    align-items: center;
-    justify-items: start;
+    align-items: start;
     padding: 0.5rem;
     text-align: justify;
 }
@@ -245,6 +246,7 @@ line-height: 24px; /* 150% */
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    align-items: start;
     width: 48px;
     height: 48px;
     flex-shrink: 0;
@@ -281,7 +283,7 @@ line-height: 16px; /* 160% */
     grid-template-columns: 1fr 70%;
     grid-template-rows: 1fr 70%;
     align-items: center;
-    justify-items: start;
+    justify-items: center;
     padding: 0.5rem;
 }
 .plant_img{
@@ -324,7 +326,7 @@ line-height: 16px; /* 160% */
     grid-template-columns: 1fr 70%;
     grid-template-rows: 1fr 70%;
     align-items: center;
-    justify-items: start;
+    justify-items: center;
     padding: 0.5rem;
 }
 .dollar-symbol_img{
@@ -587,7 +589,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     grid-row-start: 1;
     grid-row-end: 4;  
     width:100%;
-    justify-self: stretch;
+    justify-self: start;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -657,8 +659,6 @@ line-height: 20px; /* 142.857% */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     padding-top: 6rem;
-padding-left: 7rem;
-padding-right: 7rem;
 padding-bottom: 7rem;
 align-items: center;
 justify-items:stretch;
@@ -824,16 +824,183 @@ color: var(--akana-green, #156963);
     cursor: pointer;
 }
 
-@media screen and (max-width: 1244px){
-  .buttons{
-    align-self: auto;
-  }  
-}
-@media screen and (max-width:1040){
-        
+
+
+
+/* @media screen and (max-width: 1210px){
+    .buttons{
+      align-self: auto;
+    }   */
+
+
+/* @media screen and (max-width:1140px){
             .by-more-plants__right_photo{
             width: 50wv;
             height: 50vh;
             }
+} */
+
+@media screen and (max-width:1110px){
+    .main_info{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 30%;
+        
 }
+.photo_plant{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    
+}
+.kembang{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: stretch;
+    justify-content: center;
+    align-content: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.buttons{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:3;
+    justify-self: center;
+    align-self:auto;
+    padding-top: 3rem;
+    
+}
+.about-shop{
+    gap: 1rem;
+}
+.by-more-plants{
+    align-items: center;
+}
+}
+@media screen and (max-width:973px){
+.by-more-plants{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    justify-items: start;
+    padding-top: 6rem;
+}
+.by-more-plants__header{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.by-more-plants__text{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+}
+
+.by-more-plants__right_photo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;  
+    width:100%;
+    justify-self: end;
+}
+.by-more-plants__left_photo{
+    display: none;
+}
+.about-shop{
+    gap: 0.5rem;
+}
+.sanni-sahil_img{
+    height: auto;
+}
+.our-shop-block__header{
+padding-top: 1rem;
+}
+
+}
+@media screen and (max-width:840px){
+    .main_info{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo_plant{
+        width: 70vw;
+        align-self: center;
+    }
+    .buttons{
+        align-self: center;
+        }
+        .header{
+            justify-content: center;
+        }  
+            .h1,.main_text{
+                text-align: center;
+            }
+}
+.footer{
+    padding-top: 4rem;
+gap: 2rem;
+}
+.by-more-plants{
+    align-items: center;
+}
+
+@media screen and (max-width:973px){
+.by-more-plants{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 1fr;
+    padding-top: 2rem;
+}
+.by-more-plants__header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    justify-self: stretch;
+    text-align: center;
+    padding-left: 0;
+}
+.by-more-plants__text{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    width: 100%;
+    text-align: start;
+    align-items: start;
+   
+}
+
+.by-more-plants__right_photo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    width:80%;
+    
+}
+.by-more-plants__left_photo{
+    display: none;
+}
+    .our-shop-block__header{
+        text-align: center;
+        justify-items: end;
+    }
+   
+}
+
+
 
