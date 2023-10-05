@@ -884,51 +884,54 @@ color: var(--akana-green, #156963);
     align-items: center;
 }
 }
+
+
 @media screen and (max-width:973px){
-.by-more-plants{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 1rem;
-    align-items: center;
-    justify-items: start;
-    padding-top: 6rem;
-}
-.by-more-plants__header{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-.by-more-plants__text{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3; 
-}
+    .by-more-plants{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30% 1fr;
+        padding-top: 2rem;
+    }
+    .by-more-plants__header{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 100%;
+        justify-self: stretch;
+        text-align: center;
+        padding-left: 0;
+    }
+    .by-more-plants__text{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3; 
+        width: 100%;
+        text-align: start;
+        align-items: start;   
+    }
+    
+    .by-more-plants__right_photo{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;  
+        width:80%;
+        
+    }
+    .by-more-plants__left_photo{
+        display: none;
+    }
+        .our-shop-block__header{
+            text-align: center;
+            justify-items: end;
+        }
+    }
+    
 
-.by-more-plants__right_photo{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;  
-    width:100%;
-    justify-self: end;
-}
-.by-more-plants__left_photo{
-    display: none;
-}
-.about-shop{
-    gap: 0.5rem;
-}
-.sanni-sahil_img{
-    height: auto;
-}
-.our-shop-block__header{
-padding-top: 1rem;
-}
 
-}
 @media screen and (max-width:840px){
     .main_info{
         display: flex;
@@ -955,52 +958,74 @@ gap: 2rem;
 .by-more-plants{
     align-items: center;
 }
+.sanni-sahil_img{
+   width: 100%;
+    height: 100%;
 
-@media screen and (max-width:973px){
-.by-more-plants{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30% 1fr;
-    padding-top: 2rem;
+
 }
-.by-more-plants__header{
+@media screen and (max-width:830px){
+    .our-shop-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        .our-shop-block__button{
+            padding-left: 0rem;
+        }
+        
+        .sanni-sahil_img{
+            display: none;
+        } 
+}
+
+@media screen and (max-width:675px){
+    .about-shop{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr   ;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        gap: 5rem;
+        
+    }
+   /*about-shop__fast_delivery_block*/
+.about-shop__fast_delivery_block{
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    width: 100%;
-    justify-self: stretch;
-    text-align: center;
-    padding-left: 0;
+   
 }
-.by-more-plants__text{
+
+
+/*about-shop__great_customer_service_block*/
+.about-shop__great_customer_service_block{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
-    grid-row-end: 3; 
-    width: 100%;
-    text-align: start;
-    align-items: start;
-   
-}
-
-.by-more-plants__right_photo{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;  
-    width:80%;
-    
-}
-.by-more-plants__left_photo{
-    display: none;
-}
-    .our-shop-block__header{
-        text-align: center;
-        justify-items: end;
-    }
-   
+    grid-row-end: 3;
+    justify-content: center;
 }
 
 
+/*about-shop__original_plants_block*/
+.about-shop__original_plants_block{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-content: center;
+}
 
+/*about-shop__affordable_price_block*/
+.about-shop__affordable_price_block{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    justify-content: center;
+}
+
+}
