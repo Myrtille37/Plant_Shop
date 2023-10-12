@@ -969,7 +969,7 @@ color: var(--akana-green, #156963);
 }
 
 @media screen and (max-width:675px){
-    .about-shop{
+    .about-shop{ 
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows:1fr 1fr 1fr 1fr   ;
@@ -978,13 +978,12 @@ color: var(--akana-green, #156963);
         gap: 5rem;
         
     }
-   /*about-shop__fast_delivery_block*/
+    /*about-shop__fast_delivery_block*/
 .about-shop__fast_delivery_block{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-   
 }
 
 
@@ -995,6 +994,7 @@ color: var(--akana-green, #156963);
     grid-row-start: 2;
     grid-row-end: 3;
     justify-content: center;
+    
 }
 
 
@@ -1039,7 +1039,16 @@ color: var(--akana-green, #156963);
 .our-shop{
     padding-top: 2rem;
 }
-}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+        }
+    }
+
 @media screen and (max-width:520px){
     .buttons{
         display: flex;
@@ -1048,3 +1057,14 @@ color: var(--akana-green, #156963);
         gap: 0.5rem;
     }
 }
+
+/* @media screen and (max-width:521px){
+    .footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 30px;
+    }
+} */
