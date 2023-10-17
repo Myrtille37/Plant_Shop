@@ -388,14 +388,14 @@
     line-height: normal;
 }
 .gallery__kaktus_plants_1_price{
-text-align: center;
-margin: 0;
-color: #000;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    text-align: center;
+    margin: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 
 }
 
@@ -557,11 +557,11 @@ line-height: normal;
     width: 100%;
     padding-bottom: 3rem;
     color: var(--kq-black, #2C1500);
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 175% */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
 }
 .by-more-plants__left_photo{
     grid-column-start: 1;
@@ -605,11 +605,11 @@ line-height: 28px; /* 175% */
     text-align: start;
     padding-top: 1rem;
     color: var(--kq-black, #2C1500);
-font-family: Montserrat;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 56px; /* 140% */
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 140% */
 }
 .our-shop-block__btn{
     grid-column-start: 1;
@@ -623,12 +623,12 @@ line-height: 56px; /* 140% */
     height: 40px;
     justify-self: start;
     color: var(--akana-green, #156963);
-text-align: center;
-font-family: Nunito;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 20px; /* 142.857% */
+    text-align: center;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
 }
 .our-shop-block__btn:hover{
     background-color: var(--akana-green, #156963);
@@ -647,9 +647,9 @@ line-height: 20px; /* 142.857% */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     padding-top: 6rem;
-padding-bottom: 7rem;
-align-items: center;
-justify-items: center;
+    padding-bottom: 7rem;
+    align-items: center;
+    justify-items: center;
 
 }
 .plantku{
@@ -658,13 +658,13 @@ justify-items: center;
     grid-row-start: 1;
     grid-row-end: 2;
     color: var(--akana-green, #156963);
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 100% */
-letter-spacing: 1.2px;
-text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 100% */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
 }
 .plantku-house{
     grid-column-start: 1;
@@ -672,11 +672,11 @@ text-transform: uppercase;
     grid-row-start: 2;
     grid-row-end: 3; 
     color: var(--Gray-1, #333);
-font-family: Work Sans;
-font-size: 16px;
-font-style:normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style:normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .address{
     grid-column-start: 1;
@@ -684,11 +684,11 @@ line-height: normal;
     grid-row-start: 3;
     grid-row-end: 3; 
     color: var(--Gray-2, #4F4F4F);
-font-family: Work Sans;
-font-size: 13px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 153.846% */
+    font-family: Work Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
 }
 .perusahaan{
     grid-column-start: 2;
@@ -701,7 +701,7 @@ line-height: 20px; /* 153.846% */
     font-style: normal;
     font-weight: 800;
     line-height: 16px; /* 100% */ 
-justify-self: center;
+    justify-self: center;
 }
 .tentang-kami{
     grid-column-start: 2;
@@ -709,12 +709,12 @@ justify-self: center;
     grid-row-start: 2;
     grid-row-end: 3; 
     color: #000;
-font-family: Work Sans;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 16px; /* 114.286% */ 
-justify-self: center; 
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */ 
+    justify-self: center; 
 }
 .hubungi-kami{
     grid-column-start: 2;
@@ -812,27 +812,15 @@ color: var(--akana-green, #156963);
     cursor: pointer;
 }
 
+/*media*/
 
-
-
-/* @media screen and (max-width: 1210px){
-    .buttons{
-      align-self: auto;
-    }   */
-
-
-/* @media screen and (max-width:1140px){
-            .by-more-plants__right_photo{
-            width: 50wv;
-            height: 50vh;
-            }
-} */
+/* max-width:1110px */
 
 @media screen and (max-width:1110px){
-    .main_info{
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 1fr 30%;
+.main_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 30%;
         
 }
 .photo_plant{
@@ -873,71 +861,69 @@ color: var(--akana-green, #156963);
 }
 }
 
+/* max-width:973px */
 
 @media screen and (max-width:973px){
-    .by-more-plants{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 30% 1fr;
-        padding-top: 2rem;
-    }
-    .by-more-plants__header{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        width: 100%;
-        justify-self: stretch;
-        text-align: center;
-        padding-left: 0;
-    }
-    .by-more-plants__text{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3; 
-        width: 100%;
-        text-align: start;
-        align-items: start;   
-    }
+.by-more-plants{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 1fr;
+    padding-top: 2rem;
+}
+.by-more-plants__header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    justify-self: stretch;
+    text-align: center;
+    padding-left: 0;
+}
+.by-more-plants__text{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    width: 100%;
+    text-align: start;
+    align-items: start;   
+}
+.by-more-plants__right_photo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    width:80%;     
+}
+.by-more-plants__left_photo{
+    display: none;
+}
+.our-shop-block__header{
+    text-align: center;
+    justify-items: end;
+}
+}
     
-    .by-more-plants__right_photo{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;  
-        width:80%;
-        
-    }
-    .by-more-plants__left_photo{
-        display: none;
-    }
-        .our-shop-block__header{
-            text-align: center;
-            justify-items: end;
-        }
-    }
-    
-
+/* max-width:900px */
 
 @media screen and (max-width:900px){
-    .main_info{
-        display: flex;
-        flex-direction: column;
-    }
-    .photo_plant{
-        width: 70vw;
-        align-self: center;
-    }
-    .buttons{
-        align-self: center;
-        }
-        .header{
-            justify-content: center;
-        }  
-            .h1,.main_text{
-                text-align: center;
-            }
+.main_info{
+    display: flex;
+    flex-direction: column;
+}
+.photo_plant{
+    width: 70vw;
+    align-self: center;
+}
+.buttons{
+    align-self: center;
+}
+.header{
+    justify-content: center;
+}  
+.h1,.main_text{
+    text-align: center;
 }
 .footer{
     padding-top: 4rem;
@@ -946,59 +932,51 @@ color: var(--akana-green, #156963);
     align-items: center;
 }
 .sanni-sahil_img{
-   width: 100%;
+    width: 100%;
     height: 100%;
-
-
 }
+}
+
+/* max-width:830px */
+
 @media screen and (max-width:830px){
-    .our-shop-block{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        }
-        
-        .our-shop-block__button{
-            padding-left: 0rem;
-        }
-        
-        .sanni-sahil_img{
-            display: none;
-        } 
-        
+.our-shop-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}        
+.our-shop-block__button{
+    padding-left: 0rem;
 }
+.sanni-sahil_img{
+    display: none;
+} 
+}
+
+/* max-width:675px */
 
 @media screen and (max-width:675px){
-    .about-shop{ 
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows:1fr 1fr 1fr 1fr   ;
-        padding-left: 6rem;
-        padding-right: 6rem;
-        gap: 5rem;
-        
-    }
-    /*about-shop__fast_delivery_block*/
+.about-shop{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr   ;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    gap: 5rem;    
+}
 .about-shop__fast_delivery_block{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 }
-
-
-/*about-shop__great_customer_service_block*/
 .about-shop__great_customer_service_block{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
     justify-content: center;
-    
 }
-
-
-/*about-shop__original_plants_block*/
 .about-shop__original_plants_block{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -1006,8 +984,6 @@ color: var(--akana-green, #156963);
     grid-row-end: 4;
     justify-content: center;
 }
-
-/*about-shop__affordable_price_block*/
 .about-shop__affordable_price_block{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -1046,25 +1022,17 @@ color: var(--akana-green, #156963);
     align-items: center;
     text-align: center;
     gap: 30px;
-        }
-    }
-
-@media screen and (max-width:520px){
-    .buttons{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
+}
 }
 
-/* @media screen and (max-width:521px){
-    .footer{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-gap: 30px;
-    }
-} */
+/* max-width:520px */
+
+@media screen and (max-width:520px){
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+}
+
