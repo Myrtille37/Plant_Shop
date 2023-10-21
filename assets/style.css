@@ -649,7 +649,7 @@
     padding-top: 6rem;
     padding-bottom: 7rem;
     align-items: center;
-    justify-items: center;
+    justify-items: start;
 
 }
 .plantku{
@@ -803,8 +803,6 @@ gap: 10px;
 justify-self: start;
 text-align:center;
 color: var(--akana-green, #156963);
-
-
 }
 .btn-submit:hover{
     color: white;
@@ -903,7 +901,11 @@ color: var(--akana-green, #156963);
     text-align: center;
     justify-items: end;
 }
+
+
 }
+
+
     
 /* max-width:900px */
 
