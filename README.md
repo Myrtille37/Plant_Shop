@@ -28,4 +28,4 @@ Website has an information about shop, photos and descriptions of most popular p
 
 - Website uses HTML and CSS, and Flex and Grid technologies and has an adaptive.
   
-- Website located on GitHub Pages and has an adress: 
+- Website located on GitHub Pages and has an adress:  https://myrtille37.github.io/Plant_Shop/ 
